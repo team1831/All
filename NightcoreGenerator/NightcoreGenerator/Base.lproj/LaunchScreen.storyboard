@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qXA-wb-9Mh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchIcon" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ahv-1G-wix">
+                                <rect key="frame" x="70" y="186" width="235" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ahv-1G-wix" secondAttribute="height" multiplier="1:1" id="hJZ-iv-eDY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NightcoreGenerator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="HWR-12-lmu">
+                                <rect key="frame" x="31" y="441" width="313" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="HWR-12-lmu" firstAttribute="top" secondItem="Ahv-1G-wix" secondAttribute="bottom" constant="20" id="4e0-GM-Mxn"/>
+                            <constraint firstItem="Ahv-1G-wix" firstAttribute="leading" secondItem="qXA-wb-9Mh" secondAttribute="leading" constant="70" id="Obm-wl-tbB"/>
+                            <constraint firstItem="Ahv-1G-wix" firstAttribute="centerY" secondItem="qXA-wb-9Mh" secondAttribute="centerY" constant="-30" id="UJx-Js-jvv"/>
+                            <constraint firstItem="HWR-12-lmu" firstAttribute="leading" secondItem="qXA-wb-9Mh" secondAttribute="leadingMargin" constant="15" id="VBT-9W-ALb"/>
+                            <constraint firstItem="Ahv-1G-wix" firstAttribute="centerX" secondItem="qXA-wb-9Mh" secondAttribute="centerX" id="k5N-6h-bbd"/>
+                            <constraint firstAttribute="trailing" secondItem="Ahv-1G-wix" secondAttribute="trailing" constant="70" id="lDO-sg-ksq"/>
+                            <constraint firstItem="HWR-12-lmu" firstAttribute="centerX" secondItem="qXA-wb-9Mh" secondAttribute="centerX" id="zCQ-eD-IH9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tAm-p6-EJx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchIcon" width="512" height="512"/>
+    </resources>
+</document>
