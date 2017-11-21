@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2558891FC4687E006EE571 /* Mhey.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2C2558881FC46853006EE571 /* Mhey.caf */; };
 		3FF82F641FC222350046C1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF82F631FC222350046C1D7 /* AppDelegate.swift */; };
 		3FF82F661FC222350046C1D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF82F651FC222350046C1D7 /* ViewController.swift */; };
 		3FF82F691FC222350046C1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF82F671FC222350046C1D7 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C2558881FC46853006EE571 /* Mhey.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mhey.caf; sourceTree = "<group>"; };
 		3FF82F601FC222350046C1D7 /* NightcoreGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightcoreGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF82F631FC222350046C1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF82F651FC222350046C1D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		3FF82F621FC222350046C1D7 /* NightcoreGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				2C2558881FC46853006EE571 /* Mhey.caf */,
 				3FF82F631FC222350046C1D7 /* AppDelegate.swift */,
 				3FF82F651FC222350046C1D7 /* ViewController.swift */,
 				3FF82F671FC222350046C1D7 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2558891FC4687E006EE571 /* Mhey.caf in Resources */,
 				3FF82F711FC222350046C1D7 /* LaunchScreen.storyboard in Resources */,
 				3FF82F6E1FC222350046C1D7 /* Assets.xcassets in Resources */,
 				3FF82F691FC222350046C1D7 /* Main.storyboard in Resources */,
