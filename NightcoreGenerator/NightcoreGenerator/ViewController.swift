@@ -14,7 +14,6 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    
     // =========== BPM取得処理&BMPに応じた通知処理 by 新納 ================
     // To get songs from libraries
     // let song = n_getSongByPicker()
@@ -22,7 +21,6 @@ class ViewController: UIViewController {
     // 
     // playingTime のオブサーバーを張る(1msあたりの処理を追加する)
     // ==============================================
-    
     
   }
   
@@ -32,16 +30,14 @@ class ViewController: UIViewController {
   
   
   func n_getSongByPicker() -> MPMediaItem? {
-    
     return nil
   }
   
   func n_getBPMFromSong( _song : MPMediaItem ) -> Int {
     var rtnBPM: Int = 120
-    
     return rtnBPM
   }
-
+  
 
 }
 
