@@ -38,14 +38,17 @@
                                         <state key="normal" title="選曲">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="pushPic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fM1-a9-s8Z"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="K6m-6d-LUZ" firstAttribute="top" secondItem="Q46-FQ-9Zs" secondAttribute="top" id="5Qf-xP-aVY"/>
                                     <constraint firstItem="K6m-6d-LUZ" firstAttribute="leading" secondItem="Q46-FQ-9Zs" secondAttribute="leading" id="KP6-DH-Nxo"/>
-                                    <constraint firstAttribute="trailing" secondItem="bTM-kk-MQE" secondAttribute="trailing" constant="30" id="a63-9j-2wL"/>
-                                    <constraint firstItem="bTM-kk-MQE" firstAttribute="leading" secondItem="Q46-FQ-9Zs" secondAttribute="leading" constant="30" id="tad-JM-MXQ"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="bTM-kk-MQE" secondAttribute="trailing" constant="30" id="a63-9j-2wL"/>
+                                    <constraint firstItem="bTM-kk-MQE" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Q46-FQ-9Zs" secondAttribute="leading" constant="30" id="tad-JM-MXQ"/>
                                     <constraint firstAttribute="trailing" secondItem="K6m-6d-LUZ" secondAttribute="trailing" id="tj4-t2-fXu"/>
                                     <constraint firstAttribute="bottom" secondItem="bTM-kk-MQE" secondAttribute="bottom" constant="30" id="wZH-qS-aJU"/>
                                 </constraints>

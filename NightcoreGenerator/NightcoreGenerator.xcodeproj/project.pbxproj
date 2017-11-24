@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2C2558891FC4687E006EE571 /* Mhey.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2C2558881FC46853006EE571 /* Mhey.caf */; };
+		3F06214D1FC479210049FE16 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F06214C1FC479150049FE16 /* AudioToolbox.framework */; };
+		3F0621551FC479E10049FE16 /* BMPAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0621541FC479E10049FE16 /* BMPAnalyzer.swift */; };
+		3F06215C1FC47BF60049FE16 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F06214E1FC4792B0049FE16 /* CoreMedia.framework */; };
+		3F06215D1FC47BFF0049FE16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F06214F1FC479380049FE16 /* AVFoundation.framework */; };
+		3F0621631FC480880049FE16 /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F06215E1FC47DF40049FE16 /* libSuperpoweredAudioIOS.a */; };
+		3FE3501A1FC84B8C0087D690 /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE350151FC84B8C0087D690 /* libSuperpoweredAudioIOS.a */; };
+		3FE3501B1FC84B8C0087D690 /* Superpowered.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3FE350161FC84B8C0087D690 /* Superpowered.mm */; };
 		3FF82F641FC222350046C1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF82F631FC222350046C1D7 /* AppDelegate.swift */; };
 		3FF82F661FC222350046C1D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF82F651FC222350046C1D7 /* ViewController.swift */; };
 		3FF82F691FC222350046C1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF82F671FC222350046C1D7 /* Main.storyboard */; };
@@ -37,6 +44,19 @@
 
 /* Begin PBXFileReference section */
 		2C2558881FC46853006EE571 /* Mhey.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mhey.caf; sourceTree = "<group>"; };
+		3F06214C1FC479150049FE16 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3F06214E1FC4792B0049FE16 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3F06214F1FC479380049FE16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F0621501FC479720049FE16 /* Superpower */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Superpower; path = NightcoreGenerator/src/Superpower; sourceTree = "<group>"; };
+		3F0621521FC479860049FE16 /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSuperpoweredAudioIOS.a; path = NightcoreGenerator/src/Superpower/libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		3F0621541FC479E10049FE16 /* BMPAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMPAnalyzer.swift; sourceTree = "<group>"; };
+		3F06215E1FC47DF40049FE16 /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSuperpoweredAudioIOS.a; path = NightcoreGenerator/Superpower/libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		3FE350151FC84B8C0087D690 /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		3FE350161FC84B8C0087D690 /* Superpowered.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Superpowered.mm; sourceTree = "<group>"; };
+		3FE350171FC84B8C0087D690 /* SuperpoweredAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAnalyzer.h; sourceTree = "<group>"; };
+		3FE350181FC84B8C0087D690 /* SuperpoweredDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredDecoder.h; sourceTree = "<group>"; };
+		3FE350191FC84B8C0087D690 /* SuperpoweredSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSimple.h; sourceTree = "<group>"; };
+		3FE41A1A1FC823E200B1A812 /* NightcoreGenerator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NightcoreGenerator-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FF82F601FC222350046C1D7 /* NightcoreGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightcoreGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF82F631FC222350046C1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF82F651FC222350046C1D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0621631FC480880049FE16 /* libSuperpoweredAudioIOS.a in Frameworks */,
+				3F06215D1FC47BFF0049FE16 /* AVFoundation.framework in Frameworks */,
+				3F06215C1FC47BF60049FE16 /* CoreMedia.framework in Frameworks */,
+				3FE3501A1FC84B8C0087D690 /* libSuperpoweredAudioIOS.a in Frameworks */,
+				3F06214D1FC479210049FE16 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F06214B1FC479140049FE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0621521FC479860049FE16 /* libSuperpoweredAudioIOS.a */,
+				3F06215E1FC47DF40049FE16 /* libSuperpoweredAudioIOS.a */,
+				3F0621501FC479720049FE16 /* Superpower */,
+				3F06214F1FC479380049FE16 /* AVFoundation.framework */,
+				3F06214E1FC4792B0049FE16 /* CoreMedia.framework */,
+				3F06214C1FC479150049FE16 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FE350131FC84B8C0087D690 /* Superpower */ = {
+			isa = PBXGroup;
+			children = (
+				3FE350151FC84B8C0087D690 /* libSuperpoweredAudioIOS.a */,
+				3FE350161FC84B8C0087D690 /* Superpowered.mm */,
+				3FE350171FC84B8C0087D690 /* SuperpoweredAnalyzer.h */,
+				3FE350181FC84B8C0087D690 /* SuperpoweredDecoder.h */,
+				3FE350191FC84B8C0087D690 /* SuperpoweredSimple.h */,
+			);
+			path = Superpower;
+			sourceTree = "<group>";
+		};
 		3FF82F571FC222350046C1D7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +135,7 @@
 				3FF82F7A1FC222350046C1D7 /* NightcoreGeneratorTests */,
 				3FF82F851FC222350046C1D7 /* NightcoreGeneratorUITests */,
 				3FF82F611FC222350046C1D7 /* Products */,
+				3F06214B1FC479140049FE16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +152,12 @@
 		3FF82F621FC222350046C1D7 /* NightcoreGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				3FE350131FC84B8C0087D690 /* Superpower */,
 				2C2558881FC46853006EE571 /* Mhey.caf */,
 				3FF82F631FC222350046C1D7 /* AppDelegate.swift */,
+				3F0621541FC479E10049FE16 /* BMPAnalyzer.swift */,
 				3FF82F651FC222350046C1D7 /* ViewController.swift */,
+				3FE41A1A1FC823E200B1A812 /* NightcoreGenerator-Bridging-Header.h */,
 				3FF82F671FC222350046C1D7 /* Main.storyboard */,
 				3FF82F6D1FC222350046C1D7 /* Assets.xcassets */,
 				3FF82F6F1FC222350046C1D7 /* LaunchScreen.storyboard */,
@@ -267,8 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF82F661FC222350046C1D7 /* ViewController.swift in Sources */,
+				3F0621551FC479E10049FE16 /* BMPAnalyzer.swift in Sources */,
 				3FF82F641FC222350046C1D7 /* AppDelegate.swift in Sources */,
 				3FF82F6C1FC222350046C1D7 /* NightcoreGenerator.xcdatamodeld in Sources */,
+				3FE3501B1FC84B8C0087D690 /* Superpowered.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,14 +490,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8YPT438X6;
 				INFOPLIST_FILE = NightcoreGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.NightcoreGenerator;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NightcoreGenerator/Superpower",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhhin.NightcoreGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NightcoreGenerator/NightcoreGenerator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -449,14 +513,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8YPT438X6;
 				INFOPLIST_FILE = NightcoreGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.NightcoreGenerator;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/src/Superpower",
+					"$(PROJECT_DIR)/NightcoreGenerator/Superpower",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhhin.NightcoreGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NightcoreGenerator/NightcoreGenerator-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
